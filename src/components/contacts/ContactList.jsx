@@ -14,7 +14,7 @@ import {
 } from './ContactList.styles';
 import { getRandomHexColor } from '../../utils/getColorsFn';
 
-// компонент використовую список контактів з стору через useSelector
+
 export function ContactList() {
   const contacts = useSelector(selectContacts);
 
