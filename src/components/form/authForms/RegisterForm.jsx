@@ -37,7 +37,7 @@ export const RegisterForm = () => {
           type="email"
           name="email"
           required
-          placeholder="gmail@hvoarang.com"
+          placeholder="hvoarang@gmail.com"
         />
       </label>
       <label>
