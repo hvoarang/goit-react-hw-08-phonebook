@@ -27,7 +27,7 @@ export const RegisterForm = () => {
           type="text"
           name="name"
           required
-          placeholder="Anna Smith"
+          placeholder="Denys iElkin"
           minLength={3}
         />
       </label>
@@ -37,7 +37,7 @@ export const RegisterForm = () => {
           type="email"
           name="email"
           required
-          placeholder="my-mail@gmail.com"
+          placeholder="gmail@hvoarang.com"
         />
       </label>
       <label>
