@@ -3,8 +3,6 @@ import { Outlet } from 'react-router-dom';
 import { Container, Header, Footer, PageContainer } from './Layout.styles';
 import Navigation from 'components/navigation/Navigation';
 
-// import { Dna } from 'react-loader-spinner';
-
 const Layout = () => {
   return (
     <Container>
