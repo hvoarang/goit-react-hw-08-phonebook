@@ -28,9 +28,8 @@ const Layout = () => {
 
       <Footer>
         <p>
-          Created by
-          <a href="https://github.com/hellene-mary"> &copy; hellene-mary</a> as
-          homework for courses GoIt
+          homework
+          <a href="https://github.com/hvoarang"> &copy; Denys iElkin</a> goit-react-hw-08-phonebook
         </p>
       </Footer>
     </Container>
