@@ -22,7 +22,6 @@ export const Nav = styled(NavLink)`
   &:hover,
   &:focus {
     color: ${getRandomHexColor()};
-    /* font-weight: bold; */
   }
 
   &.active {
