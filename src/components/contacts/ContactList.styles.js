@@ -5,7 +5,6 @@ export const ContactsList = styled.ul`
 `;
 
 export const ContactItem = styled.li`
-  /* font-size: 26px; */
   margin-bottom: 10px;
   padding: 8px;
   display: flex;
@@ -52,8 +51,6 @@ export const ContactDelete = styled.button`
   font-size: 16px;
   display: flex;
   align-items: center;
-
-  /* background-color: #f7f7f7; */
 
   svg {
     width: 25px;

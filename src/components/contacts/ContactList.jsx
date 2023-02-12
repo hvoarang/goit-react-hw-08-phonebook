@@ -20,7 +20,6 @@ export function ContactList() {
 
   const filterValue = useSelector(selectContactsFilter).toLowerCase();
 
-  // надсилання екшона видалення контакту за допомогою useDispatch
   const dispatch = useDispatch();
 
   const handleDelete = evt => {
