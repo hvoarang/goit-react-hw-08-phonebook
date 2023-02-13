@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <SectionHome>
       <h1>
-        Welcome to <span>P</span>honebook!
+        Welcome to Phonebook!
       </h1>
       <p>Create your own personal book of contacts</p>
     </SectionHome>
