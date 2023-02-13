@@ -19,11 +19,7 @@ const Navigation = () => {
             {!isLoggedIn && <Nav to="/login">Log In</Nav>}
           </NavAuthBox>
         )}
-        {/* <NavAuthBox>
-          {!isLoggedIn && <Nav to="/register">Register</Nav>}
-          {!isLoggedIn && <Nav to="/login">Log In</Nav>}
-        </NavAuthBox>
-        {isLoggedIn && <Nav to="/contacts">Contacts</Nav>} */}
+        {}
       </NavBox>
 
       {isLoggedIn && <UserMenu />}
