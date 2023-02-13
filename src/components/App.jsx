@@ -10,7 +10,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { PrivateRoute } from './PrivateRoute';
 import { RestrictedRoute } from './RestrictedRoute';
 import { refreshUser } from '../redux/auth/operations';
-import Home from 'pages/Home';
+import Home from './../pages/Home';
 import Layout from './layout/Layout';
 document.title = 'PhonebookBox_redux';
 
@@ -49,7 +49,8 @@ const App = () => {
                   component={<RegisterPage />}
                 />
               }
-            />
+              />
+              
             <Route
               path="login"
               element={
@@ -58,7 +59,8 @@ const App = () => {
                   component={<LoginPage />}
                 />
               }
-            />
+              />
+              
             <Route
               path="contacts"
               element={
@@ -67,8 +69,10 @@ const App = () => {
                   component={<ContactsPage />}
                 />
               }
-            />
-          </Route>
+              />
+              
+            </Route>
+            
         </Routes>
       )}
       <ToastContainer
