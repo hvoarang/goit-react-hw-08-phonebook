@@ -4,7 +4,6 @@ import { toast } from 'react-toastify';
 
 axios.defaults.baseURL = 'https://connections-api.herokuapp.com';
 
-// GET ​/contacts Get all user contacts
 export const fetchContacts = createAsyncThunk(
   'contacts/fetchAll',
   async (_, thunkAPI) => {
@@ -18,7 +17,6 @@ export const fetchContacts = createAsyncThunk(
   }
 );
 
-// POST ​/contacts Create a new contact
 export const addContact = createAsyncThunk(
   'contacts/addContact',
   async ({ name, number }, thunkAPI) => {
@@ -33,7 +31,6 @@ export const addContact = createAsyncThunk(
   }
 );
 
-// DELETE ​/contacts​/{contactId} Delete contact.
 export const deleteContact = createAsyncThunk(
   'contacts/deleteContact',
   async (contactId, thunkAPI) => {
